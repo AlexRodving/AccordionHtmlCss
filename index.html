@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accordion</title>
+</head>
+<body>
+    <main>
+        <div class="first-option">
+            <h3>First-option(radio):</h3>
+            <div class="accordion">
+                <input type="radio" name="accordion" id="item1">
+                <label for="item1">Заголовок 1</label>
+                <div class="content">
+                  Содержимое 1
+                </div>
+              
+                <input type="radio" name="accordion" id="item2">
+                <label for="item2">Заголовок 2</label>
+                <div class="content">
+                  Содержимое 2
+                </div>
+              
+                <input type="radio" name="accordion" id="item3">
+                <label for="item3">Заголовок 3</label>
+                <div class="content">
+                  Содержимое 3
+                </div>
+            </div>
+        </div>
+        <div class="second-option">
+            <h3>Second-option(details):</h3>
+            <div class="accordion">
+                <details>
+                    <summary>Заголовок 1</summary>
+                    <div>Содержимое 1</div>
+                </details>
+                <details>
+                    <summary>Заголовок 2</summary>
+                    <div>Содержимое 2</div>
+                </details>
+                <details>
+                    <summary>Заголовок 3</summary>
+                    <div>Содержимое 3</div>
+                </details>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
